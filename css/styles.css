@@ -17,7 +17,7 @@
 body {
   font-family: var(--main-font);
   max-width: 100%;
-  font-family: "Roboto", "Raleway" sans-serif;
+  font-family: "Roboto", "Raleway", sans-serif;
   color: var(--normal-text-color);
 }
 
@@ -137,19 +137,17 @@ a::after {
 
 button {
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.36;
   background: var(--button-color);
-
-  /* display: flex;
-  align-items: center; */
-
-  /* letter-spacing: 0.06em;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px; */
+  text-align: center;
+  letter-spacing: 0.03em;
   border-style: none;
   cursor: pointer;
+  padding: 6px 22px 6px 22px;
+  border-radius: 4px;
+  border: none;
 }
 
 .button:hover,
