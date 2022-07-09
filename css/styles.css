@@ -153,7 +153,7 @@ button {
 .button:hover,
 .button:focus {
   background-color: var(--link-color);
-  transition: 0.7s;
+  /* transition: 0.7s; */
   color: var(--white);
 }
 
@@ -164,10 +164,10 @@ button {
   transition: 0.7s;
 } */
 
-.blue-button:hover,
+/* .blue-button:hover,
 .blue-button:hover {
   transition: 0.7s;
-}
+} */
 
 .button-container {
   display: flex;
